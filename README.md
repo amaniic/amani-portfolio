@@ -4,6 +4,8 @@ Computer Engineering student at the University of South Florida, with a minor in
 
 My interests include applied machine learning, computer vision, and software engineering.
 
+[View my portfolio](https://amani-ibrahim-carbonell.awarehinny5.chatgpt.site) · [LinkedIn](https://www.linkedin.com/in/amani-ibr/)
+
 ## Projects and source
 
 | Folder | Contents |
