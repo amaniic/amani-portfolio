@@ -1,0 +1,5 @@
+# Install mutually compatible PyTorch/torchvision builds for your CPU or CUDA setup.
+torch
+torchvision
+scikit-learn
+tqdm

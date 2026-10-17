@@ -1,0 +1,2 @@
+<!doctype html><html lang="en" xmlns:th="http://www.thymeleaf.org"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>CineVault</title><link rel="stylesheet" th:href="@{/style.css}"><script defer th:src="@{/app.js}"></script></head><body>
+<header th:replace="~{fragments :: nav}"></header><main><h1 th:text="${status == 404 ? 'Movie or page not found' : 'Something went wrong'}"></h1><p>Check the movie ID or return to your inventory.</p><a class="button" href="/movies">Show all movies</a></main></body></html>
