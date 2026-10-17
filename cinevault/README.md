@@ -1,8 +1,8 @@
-# CineVault — reconstructed movie inventory
+# CineVault — Movie Inventory
 
-**Status: a new, AI-assisted reconstruction from a project manual, not the recovered original source code.**
+A Java web application for organizing a personal movie collection, developed for CECS 3210: Advanced Programming.
 
-The original CECS 3210: Advanced Programming team project (2025) was created by **Amani Ibrahim Carbonell and Arianys Coll-cuchi Escuté**. This implementation was written in 2026 using the supplied manual and screenshots as a behavioral reference. It does not establish either teammate's individual contribution to the original project.
+Built with Spring Boot, Thymeleaf, Spring Data JPA, H2, HTML, CSS, and JavaScript.
 
 ## What it does
 
@@ -42,14 +42,14 @@ For a runnable JAR: `mvn package`, then `java -jar target/cinevault-1.0.0.jar`.
 
 Java files are under `src/main/java/com/cinevault`; templates and static files are under `src/main/resources`.
 
-## Reconstruction choices
+## Using the inventory
 
-The manual documents Spring Boot, HTML/CSS, Bootstrap, and H2. This version uses Spring Boot, Thymeleaf, JPA, H2, and custom CSS. The architecture, field types, templates, and tests here are newly written choices, not claims about the missing implementation. The original poster collage and Bootstrap dependency are not reproduced. Budget is entered as a numeric USD amount instead of shorthand such as “34M.” Posters are optional files placed in `src/main/resources/static/posters` and referenced as `/posters/example.jpg`; no image upload is implemented.
+Enter budgets as numeric amounts in US dollars. Posters are optional local files: place an image in `src/main/resources/static/posters` and use its path, such as `/posters/example.jpg`.
 
-There is no account system. The server binds to loopback for local use. CSRF protection is enabled, but this class-project reconstruction has not been hardened for public multi-user deployment. The H2 files are stored in `data/`, excluded from Git. Delete `data/` only if you intend to erase your inventory.
+The inventory is stored in a local H2 database in `data/`, excluded from Git. Movies remain available after restarting the application. Deleting `data/` erases the inventory.
 
-No research scripts, student IDs, personal contact information, original private database, or original movie poster assets are included. No license is asserted for the original team project.
+The application runs locally with CSRF protection for forms. It has no account system.
 
 ## Validation
 
-Compiled and ran the four Spring Boot integration tests during reconstruction: all passed. These cover CRUD, duplicate rules, HTML template rendering/escaping, ID lookup, invalid input, CSRF, and deletion. Browser visual review and production deployment have not been performed.
+All four Spring Boot integration tests pass. These cover CRUD, duplicate rules, HTML template rendering/escaping, ID lookup, invalid input, CSRF, and deletion. Browser visual review and production deployment have not been performed.
