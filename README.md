@@ -40,13 +40,24 @@ python3 evaluate_reported_results.py
 
 The script prints accuracy, per-class precision/recall/F1, and macro F1. Small differences from the report's displayed values reflect rounding. It reproduces metrics from fixed reported counts; it does not reproduce training or independently validate the research.
 
-## View the website locally
+## Developer instructions for running the website on your computer
+
+These steps are optional. GitHub displays source files; opening `site/index.html` on GitHub displays the code rather than running the website.
+
+1. Download this repository using **Code → Download ZIP**, then extract it.
+2. Open a terminal in the extracted `amani-portfolio` folder. With Python 3 installed, run the following command **in the terminal, not in the browser address bar**:
 
 ```bash
 python3 -m http.server 8000 --directory site
 ```
 
-Open `http://localhost:8000` in a browser. The website's result tabs support keyboard navigation. This public source copy omits the résumé and private contact details.
+On Windows, use `py -m http.server 8000 --directory site` if `python3` is not recognized.
+
+3. Keep that terminal running. In your browser, enter only `http://localhost:8000`.
+
+`localhost` means your own computer. It is not a public portfolio link and will not work unless the local server is running. Stop the server with Ctrl+C when finished.
+
+The website's result tabs support keyboard navigation. This public source copy omits the résumé and private contact details.
 
 ## Connect
 
