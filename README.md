@@ -47,7 +47,7 @@ On Windows, use `py -m http.server 8000 --directory site` if needed.
 
 4. Leave the terminal open and visit [http://localhost:8000](http://localhost:8000) in your browser.
 
-The local address only works while the server is running on your computer. The public website source omits the résumé and private contact details.
+The local address only works while the server is running on your computer. [Read my résumé online](https://amani-ibrahim-carbonell.awarehinny5.chatgpt.site/resume.html) or [open the résumé PDF](https://amani-ibrahim-carbonell.awarehinny5.chatgpt.site/Amani_Ibrahim_Carbonell_Resume.pdf) on the live portfolio.
 
 ## Connect
 
