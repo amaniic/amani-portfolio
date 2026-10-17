@@ -21,7 +21,7 @@ At the Polytechnic University of Puerto Rico, I developed two EfficientNet-B0 cl
 | Four-class hazard classification | 94.07% | 388 validation images; macro F1 reported as 0.94 |
 | Binary damage severity | 79.57% | Best result across training stages; final Stage 2 confusion matrix corresponds to approximately 77.24% |
 
-These are results reported in my research, not newly reproduced runs or independent external tests. The supplied training script represents one training stage, not the complete history behind those best results. See [research/README.md](research/README.md) for run instructions, source provenance, limitations, and documented adaptations. Data and saved model weights are not included; severity training code was not supplied.
+These are results reported in my research, not newly reproduced runs or independent external tests. The supplied training script represents one training stage, not the complete history behind those best results. See [research/README.md](research/README.md) for run instructions, source provenance, limitations, and documented adaptations. Data and saved model weights are not included.
 
 ### CineVault — Movie Inventory
 
