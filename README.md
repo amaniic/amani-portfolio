@@ -4,7 +4,7 @@ Computer Engineering student at the University of South Florida, with a minor in
 
 My interests include applied machine learning, computer vision, and software engineering.
 
-[View my portfolio](https://amani-ibrahim-carbonell.awarehinny5.chatgpt.site) · [LinkedIn](https://www.linkedin.com/in/amani-ibr/)
+[View my portfolio](https://amaniic.github.io/amani-portfolio) · [LinkedIn](https://www.linkedin.com/in/amani-ibr/)
 
 ## Projects and source
 
@@ -47,7 +47,7 @@ On Windows, use `py -m http.server 8000 --directory site` if needed.
 
 4. Leave the terminal open and visit [http://localhost:8000](http://localhost:8000) in your browser.
 
-The local address only works while the server is running on your computer. [Read my résumé online](https://amani-ibrahim-carbonell.awarehinny5.chatgpt.site/resume.html) or [open the résumé PDF](https://amani-ibrahim-carbonell.awarehinny5.chatgpt.site/Amani_Ibrahim_Carbonell_Resume.pdf) on the live portfolio.
+The local address only works while the server is running on your computer. [Read my résumé online](https://amaniic.github.io/amani-portfolio/resume.html) or [open the résumé PDF](https://amaniic.github.io/amani-portfolio/Amani_Ibrahim_Carbonell_Resume.pdf) on the live portfolio.
 
 ## Connect
 
